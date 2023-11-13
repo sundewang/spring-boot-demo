@@ -3,6 +3,6 @@ spring:
     name: spring-boot-demo
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://119.29.199.118:3306/test?useUnicode=true&characterEncoding=UTF-8
-    username: tom
-    password: dell2020
+    url: jdbc:mysql://localhost:3306/test?useUnicode=true&characterEncoding=UTF-8
+    username: root
+    password: 123456
