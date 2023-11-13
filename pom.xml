@@ -17,6 +17,7 @@
     <modules>
         <module>mybatis-demo</module>
         <module>web-demo</module>
+        <module>shedlock-demo</module>
     </modules>
 
     <properties>

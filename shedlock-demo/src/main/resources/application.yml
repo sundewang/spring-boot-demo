@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: ShedLock-demo
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/test?useUnicode=true&characterEncoding=UTF-8
+    username: root
+    password: 123456
