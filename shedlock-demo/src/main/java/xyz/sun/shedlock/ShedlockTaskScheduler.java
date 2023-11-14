@@ -22,7 +22,7 @@ public class ShedlockTaskScheduler {
         SimpleDateFormat date = new SimpleDateFormat("yyyy年MM月dd日：HH:mm:ss---SSS(毫秒)");
         String start = date.format(new Date(System.currentTimeMillis()));
         System.out.print(start + "：hello one，1!start");
-        Thread.sleep(180000);
+        Thread.sleep(60000);
         String end = date.format(new Date(System.currentTimeMillis()));
         System.out.println(end + "：hello one，1!end");
     }
@@ -33,7 +33,7 @@ public class ShedlockTaskScheduler {
         SimpleDateFormat date = new SimpleDateFormat("yyyy年MM月dd日：HH:mm:ss---SSS(毫秒)");
         String start = date.format(new Date(System.currentTimeMillis()));
         System.out.print(start + "：hello two，2! start");
-        Thread.sleep(180000);
+        Thread.sleep(60000);
         String end = date.format(new Date(System.currentTimeMillis()));
         System.out.println(end + "：hello two，2! end");
     }

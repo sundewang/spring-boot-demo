@@ -8,8 +8,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  * @date 2023/11/13
  */
 @SpringBootApplication
-public class DemoApplication {
+public class ShedLockDemoApplication {
     public static void main(String[] args) {
-        SpringApplication.run(DemoApplication.class);
+        SpringApplication.run(ShedLockDemoApplication.class);
     }
 }
