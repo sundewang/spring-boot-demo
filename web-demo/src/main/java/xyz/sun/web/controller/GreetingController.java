@@ -27,6 +27,15 @@ public class GreetingController {
 
     @GetMapping("/log")
     public String log(@RequestParam(value = "count") int count) {
+        long a = 1000;
+        System.out.println(a);
+        LOGGER.error("count:{}", count);
+        try {
+            int result = 1 / count;
+            LOGGER.info("result: {}", result);
+        } catch (Exception e) {
+            LOGGER.error("error", e);
+        }
         for (int i = 0; i < count; i++) {
             LOGGER.info("this is {} log", i);
             LOGGER.warn("this is {} warn log", i);
