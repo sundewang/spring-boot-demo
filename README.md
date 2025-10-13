@@ -1,3 +1,3 @@
-# spring-boot-demo
+# spring-boot2-demo
 
-SpringBoot学习样例，每个模块对应一类starter
+SpringBoot2.0学习样例，每个模块对应一类starter
