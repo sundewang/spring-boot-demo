@@ -15,7 +15,7 @@
         <file>${LOG_HOME}/info.log</file>
         <rollingPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedRollingPolicy">
             <!--日志文件输出的文件名-->
-            <FileNamePattern>${LOG_HOME}/info.log.%d{yyyy-MM-dd}.%i.log</FileNamePattern>
+            <FileNamePattern>${LOG_HOME}/info.%d{yyyy-MM-dd}.%i.log.gz</FileNamePattern>
             <!--日志文件最大的大小-->
             <MaxFileSize>1MB</MaxFileSize>
             <!--日志文件保留天数-->
@@ -36,7 +36,7 @@
         <file>${LOG_HOME}/warn.log</file>
         <rollingPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedRollingPolicy">
             <!--日志文件输出的文件名-->
-            <FileNamePattern>${LOG_HOME}/warn.log.%d{yyyy-MM-dd}.%i.log</FileNamePattern>
+            <FileNamePattern>${LOG_HOME}/warn.%d{yyyy-MM-dd}.%i.log.gz</FileNamePattern>
             <!--日志文件最大的大小-->
             <MaxFileSize>1MB</MaxFileSize>
             <!--日志文件保留天数-->
@@ -57,7 +57,7 @@
         <file>${LOG_HOME}/error.log</file>
         <rollingPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedRollingPolicy">
             <!--日志文件输出的文件名-->
-            <FileNamePattern>${LOG_HOME}/error.log.%d{yyyy-MM-dd}.%i.log</FileNamePattern>
+            <FileNamePattern>${LOG_HOME}/error.%d{yyyy-MM-dd}.%i.log.gz</FileNamePattern>
             <!--日志文件最大的大小-->
             <MaxFileSize>1MB</MaxFileSize>
             <!--日志文件保留天数-->
